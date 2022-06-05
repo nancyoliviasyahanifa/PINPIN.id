@@ -5,6 +5,6 @@ setInterval(function () {
       console.log(res);
       document.getElementById("pintu").innerHTML = res.PINTU;
       document.getElementById("nama").innerHTML = res.NAMA;
-      document.getElementById("nama").innerHTML = res.UID;
+      document.getElementById("uid").innerHTML = res.UID;
     });
 }, 1000);
